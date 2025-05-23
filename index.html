@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Belajar Grammar</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #eef3f7;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      animation: fadeIn 1s ease-in;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    header {
+      background: linear-gradient(to right, #2c3e50, #34495e);
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    .card-container {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 50px 20px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      text-align: center;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      padding: 20px;
+      transition: transform 0.3s ease;
+      width: 250px;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card img {
+      width: 100px;
+      margin-bottom: 10px;
+    }
+
+    .card h3 {
+      margin: 0;
+      color: #2c3e50;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #ddd;
+      padding: 20px;
+      font-size: 0.9em;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>WELCOME TO THE GRAMMAR'S WEBSITE</h1>
+    <p>CLICK THE PICTURE BELOW-AND GET TO KNOW MORE</p>
+  </header>
+
+  <div class="card-container">
+    <a class="card" href="subjectVerbAgreement.html">
+      <img src="https://cdn-icons-png.flaticon.com/512/3771/3771441.png" alt="Subject Verb">
+      <h3>Subject-Verb Agreement</h3>
+    </a>
+    <a class="card" href="activeAndPassive.html">
+      <img src="https://cdn-icons-png.flaticon.com/512/201/201623.png" alt="Passive Active">
+      <h3>Passive & Active Voice</h3>
+    </a>
+    <a class="card" href="relativePronouns.html">
+      <img src="https://cdn-icons-png.flaticon.com/512/1531/1531010.png" alt="Relative Pronoun">
+      <h3>Relative Pronoun</h3>
+    </a>
+  </div>
+
+  <footer>
+    &copy; 2025 Website Grammar | Dibuat oleh Putri Mashita Nuriyadi
+  </footer>
+
+</body>
+</html>
